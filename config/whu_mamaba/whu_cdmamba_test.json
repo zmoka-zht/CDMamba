@@ -1,0 +1,80 @@
+{
+  "name": "WHU-test-CDMamba",
+  "phase": "test", //train or test
+  "gpu_ids":[0],
+
+  "path_cd": {//set cd path
+    "log": "logs",
+    "result": "results",
+    "checkpoint": "checkpoint",
+    "resume_state": "experiments/whu_checkpoint/best_cd_model"
+  },
+
+  "datasets": {
+    "train": {
+      "name": "WHU-CD-256",
+      "datasetroot": "/data/zht/dataset/WHU-CD-256",
+      "resolution": 256,
+      "num_workers": 2,
+      "batch_size": 1,
+      "use_shuffle": true,
+      "data_len": -1
+    },
+    "val": {
+      "name": "WHU-CD-256",
+      "datasetroot": "/data/zht/dataset/WHU-CD-256",
+      "resolution": 256,
+      "num_workers": 2,
+      "batch_size": 1,
+      "use_shuffle": true,
+      "data_len": -1
+    },
+
+    "test": {
+      "name": "WHU-CD-256",
+      "datasetroot": "/data/zht/dataset/WHU-CD-256",
+      "resolution": 256,
+      "num_workers": 2,
+      "batch_size": 1,
+      "use_shuffle": false,
+      "data_len": -1
+    }
+  },
+
+  "model" : {
+    "name" : "cdmamba",
+    "loss" : "ce_dice",
+    "init_filters" : 16,
+    "n_classes" : 2,
+    "mode" : "AGLGF",
+    "conv_mode" : "orignal_dinner",
+    "local_query_model" : "orignal_dinner",
+    "up_mode" : "SRCM",
+    "up_conv_mode" : "deepwise",
+    "spatial_dims" : 2,
+    "in_channels" : 3,
+    "resdiual" : false,
+    "blocks_down" : [1, 2, 2, 4],
+    "blocks_up" : [1, 1, 1],
+    "diff_abs" : "later",
+    "stage" : 2,
+    "mamba_act" : "relu",
+    "norm" : ["GROUP", {"num_groups": 8}]
+  },
+
+  "train" : {
+    "n_epoch" : 200,
+    "train_print_iter" : 500,
+    "val_freq" : 1,
+    "val_print_iter" : 50,
+    "optimizer" :{
+      "type" : "adam",
+      "lr" : 1e-4
+    },
+    "sheduler" : {
+      "lr_policy" : "linear",
+      "n_step" : 3,
+      "gamma" : 0.1
+    }
+  }
+}

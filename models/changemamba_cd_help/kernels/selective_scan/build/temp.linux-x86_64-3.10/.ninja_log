@@ -1,0 +1,10 @@
+# ninja log v5
+1	16770	1713403483971219429	/data/zht/PycharmProiect/cd_mamba/models/mamba_cd_help/kernels/selective_scan/build/temp.linux-x86_64-3.10/csrc/selective_scan/cus/selective_scan_core_fwd.o	e2274faf57e7eec1
+0	28408	1713403495631260728	/data/zht/PycharmProiect/cd_mamba/models/mamba_cd_help/kernels/selective_scan/build/temp.linux-x86_64-3.10/csrc/selective_scan/cus/selective_scan.o	c946f5dd09eff22d
+1	42482	1713403509671309874	/data/zht/PycharmProiect/cd_mamba/models/mamba_cd_help/kernels/selective_scan/build/temp.linux-x86_64-3.10/csrc/selective_scan/cus/selective_scan_core_bwd.o	f4f39ade3b9cbb37
+13	13954	1713403524659361652	/data/zht/PycharmProiect/cd_mamba/models/mamba_cd_help/kernels/selective_scan/build/temp.linux-x86_64-3.10/csrc/selective_scan/cusndstate/selective_scan_core_fwd.o	eccc986727b0dac5
+17	22874	1713403533739392684	/data/zht/PycharmProiect/cd_mamba/models/mamba_cd_help/kernels/selective_scan/build/temp.linux-x86_64-3.10/csrc/selective_scan/cusndstate/selective_scan_ndstate.o	f211f8e60c881852
+4	41928	1713403552755456876	/data/zht/PycharmProiect/cd_mamba/models/mamba_cd_help/kernels/selective_scan/build/temp.linux-x86_64-3.10/csrc/selective_scan/cusndstate/selective_scan_core_bwd.o	6d5178bfd60db9e1
+3	21862	1713403575475532199	/data/zht/PycharmProiect/cd_mamba/models/mamba_cd_help/kernels/selective_scan/build/temp.linux-x86_64-3.10/csrc/selective_scan/cusoflex/selective_scan_core_fwd.o	590dc8d59c9cc1a6
+3	25362	1713403578995543739	/data/zht/PycharmProiect/cd_mamba/models/mamba_cd_help/kernels/selective_scan/build/temp.linux-x86_64-3.10/csrc/selective_scan/cusoflex/selective_scan_oflex.o	f98c6bdde6569202
+3	69114	1713403622587683897	/data/zht/PycharmProiect/cd_mamba/models/mamba_cd_help/kernels/selective_scan/build/temp.linux-x86_64-3.10/csrc/selective_scan/cusoflex/selective_scan_core_bwd.o	321762fed4e60fc7

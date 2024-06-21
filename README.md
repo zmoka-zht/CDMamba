@@ -49,7 +49,7 @@ If you find this project helpful, please give us a star ⭐️, your support is 
 
 ## Updates
 
-🌟 **2024.06.20** Released the RSMamba project.
+🌟 **2024.06.20** Released the CDMamba project.
 
 ## TODO
 

@@ -15,7 +15,7 @@
     <span style="font-size: 20px; ">arXiv</span>
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="resources/RSMamba.pdf">
+  <a href="resources/CDMamba.pdf">
     <span style="font-size: 20px; ">PDF</span>
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;

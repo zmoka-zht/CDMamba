@@ -31,12 +31,6 @@
 <br>
 <br>
 
-<div align="center">
-
-English | [简体中文](README_zh-CN.md)
-
-</div>
-
 
 ## Introduction
 
@@ -51,13 +45,33 @@ If you find this project helpful, please give us a star ⭐️, your support is 
 
 🌟 **2024.06.20** Released the CDMamba project.
 
+## Benchmark
+### Change detection methods supported by the repository
+- [X] FC-EF (ICIP'2018)
+- [X] FC-Siam-diff (ICIP'2018)
+- [X] FC-Siam-conc (ICIP'2018)
+- [X] IFN (ISPRS'2020)
+- [X] SNUNet (GRSL'2021)
+- [X] SwinUnet (TGRS'2022)
+- [X] BIT (TGRS'2022)
+- [X] ChangeFormer (IGARSS'22)
+- [X] MSCANet (JSTARS'2022)
+- [X] Paformer (GRSL'2022)
+- [X] DARNet (TGRS'2022)
+- [X] ACABFNet (JSTARS'2023)
+- [X] RS-Mamba (arxiv'2024)
+- [X] ChangeMamba (arxiv'2024)
+- [X] CDMamba (arxiv'2024)
+- [ ] ......
+
 ## TODO
 
-- [X] Open-sourced the [weight files]
+- [ ] Updated more change detection methods
 
 ## Table of Contents
 
 - [Introduction](#Introduction)
+- [Benchmark](#Benchmark)
 - [TODO](#TODO)
 - [Table of Contents](#Table-of-Contents)
 - [Installation](#Installation)
@@ -196,6 +210,8 @@ python train.py --config/mamba/levir_cdmamba.json
 ```shell
 python test.py --config/mamba/levir_test_cdmamba.json 
 ```
+#### CDMamba Weight
+Data download link: [Weight PanBaiDu](https://pan.baidu.com/s/1MdtW5iFaa0bF7WNrI6BfsQ). Code:d0tn
 
 ## Citation
 

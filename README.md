@@ -112,11 +112,8 @@ conda activate cd_mamba
 ```shell
 pip install -r requirements.txt
 ```
-**Note**: If importing mamba fails, try the following
-```shell
-pip install causal-conv1d==1.2.0.post2
-pip install mamba-ssm==1.2.0.post1
-```
+**Note**: If importing mamba fails, please download the corresponding package at https://github.com/state-spaces/mamba/releases.
+
 
 </details>
 

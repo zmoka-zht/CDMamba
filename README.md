@@ -208,7 +208,7 @@ python train.py --config/mamba/levir_cdmamba.json
 python test.py --config/mamba/levir_test_cdmamba.json 
 ```
 #### CDMamba Weight
-Data download link: [Weight PanBaiDu](https://pan.baidu.com/s/1MdtW5iFaa0bF7WNrI6BfsQ). Code:d0tn
+Data download link: [Weight PanBaiDu](https://pan.baidu.com/s/1fSChP8BsK_Yy78GNNd3nzg). Code:ckpt
 
 ## Citation
 

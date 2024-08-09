@@ -112,7 +112,7 @@ conda activate cd_mamba
 ```shell
 pip install -r requirements.txt
 ```
-**Note**: If importing mamba fails, please download the corresponding package at https://github.com/state-spaces/mamba/releases.
+**Note**: Please refer to https://github.com/hustvl/Vim or https://blog.csdn.net/weixin_45667052/article/details/136311600 when installing mamba.
 
 
 </details>

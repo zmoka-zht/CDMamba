@@ -209,6 +209,7 @@ python test.py --config/mamba/levir_test_cdmamba.json
 ```
 #### CDMamba Weight
 PanBaiDu download link: [Weight PanBaiDu](https://pan.baidu.com/s/1fSChP8BsK_Yy78GNNd3nzg). Code:ckpt
+
 Googel Drive download link [https://drive.google.com/file/d/1ImTvjN-vPnlJtVwfemzeHWcjoNMFsrS7/view?usp=drive_link]
 
 ## Citation

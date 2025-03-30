@@ -218,12 +218,16 @@ Google Drive download link [https://drive.google.com/file/d/1ImTvjN-vPnlJtVwfemz
 If you use the code or performance benchmarks of this project in your research, please refer to the following bibtex citation of CDMamba.
 
 ```
-@article{zhang2024cdmamba,
-  title={CDMamba: Remote Sensing Image Change Detection with Mamba},
+@ARTICLE{10902569,
   author={Zhang, Haotian and Chen, Keyan and Liu, Chenyang and Chen, Hao and Zou, Zhengxia and Shi, Zhenwei},
-  journal={arXiv preprint arXiv:2406.04207},
-  year={2024}
-}
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={CDMamba: Incorporating Local Clues Into Mamba for Remote Sensing Image Binary Change Detection}, 
+  year={2025},
+  volume={63},
+  number={},
+  pages={1-16},
+  keywords={Feature extraction;Transformers;Remote sensing;Convolutional neural networks;Visualization;Artificial intelligence;Spatiotemporal phenomena;Computational modeling;Attention mechanisms;Computer vision;Bi-temporal interaction;change detection (CD);high-resolution optical remote sensing image;Mamba;state-space model},
+  doi={10.1109/TGRS.2025.3545012}}
 ```
 
 ## License

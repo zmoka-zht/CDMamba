@@ -12,7 +12,7 @@
 <div align="center">
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://arxiv.org/abs/2406.04207">
-    <span style="font-size: 20px; ">arXiv</span>
+    <span style="font-size: 20px; ">TGRS</span>
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="resources/CDMamba.pdf">
@@ -25,7 +25,8 @@
 
 [![GitHub stars](https://badgen.net/github/stars/zmoka-zht/CDMamba)](https://github.com/zmoka-zht/CDMamba)
 [![license](https://img.shields.io/badge/license-Apache--2.0-green)](LICENSE)
-[![arXiv](https://img.shields.io/badge/arXiv-2406.04207-b31b1b.svg)](https://arxiv.org/abs/2406.04207)
+[![TGRS paper](https://img.shields.io/badge/TGRS-paper-00629B.svg)](https://ieeexplore.ieee.org/document/10902569) 
+
 
 
 <br>
@@ -34,11 +35,11 @@
 
 ## Introduction
 
-This repository is the code implementation of the paper [CDMamba: Remote Sensing Image Change Detection with Mamba](https://arxiv.org/abs/2406.04207)
+* **` Notice🐍🐍`**: CDMamba has been accepted by [IEEE TGRS](https://ieeexplore.ieee.org/document/10902569)!
 
 The current branch has been tested on Linux system, PyTorch 2.1.0 and CUDA 12.1, supports Python 3.10.
 
-If you find this project helpful, please give us a star ⭐️, your support is our greatest motivation.
+If you find this project helpful, please give us a ⭐️**star**⭐️, your support is our greatest motivation.
 
 
 ## Updates

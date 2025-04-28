@@ -1,6 +1,6 @@
 <div align="center">
     <h2>
-        CDMamba: Remote Sensing Image Change Detection with Mamba
+        CDMamba: Incorporating Local Clues into Mamba for Remote Sensing Image Binary Change Detection
     </h2>
 </div>
 <br>
@@ -11,7 +11,7 @@
 <br>
 <div align="center">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://arxiv.org/abs/2406.04207">
+  <a href="https://ieeexplore.ieee.org/document/10902569">
     <span style="font-size: 20px; ">TGRS</span>
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;

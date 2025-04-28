@@ -15,10 +15,6 @@
     <span style="font-size: 20px; ">TGRS</span>
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="resources/CDMamba.pdf">
-    <span style="font-size: 20px; ">PDF</span>
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
 </div>
 <br>
 <br>

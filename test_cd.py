@@ -281,7 +281,6 @@ if __name__ == '__main__':
                     save_network(opt, current_epoch, cd_model, optimer, is_best_model)
                     metric.clear()
 
-            get_scheduler(optimizer=optimer, args=opt['train']).step()
         logger.info('End of training.')
 
     else:
